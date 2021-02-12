@@ -4,10 +4,9 @@ import '../styles/App.css';
 const App = () => {
   return (
     <div id="main">
-      <label class="projectName">Project Name</label>
-      <p data-ns-test="project-name">Bomberman2</p>
+      
+      <h1 data-ns-test="project-name">Bomberman2</h1>
     <br>
-      <label class="projectDescription">Project Description</label>
       <p data-ns-test="project-description">It looks interesting to code a game which we played in the childhood.</p>
     </div>
   )
